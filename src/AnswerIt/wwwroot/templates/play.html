@@ -1,0 +1,22 @@
+<div class="row">
+    <h1 class="question">{{vm.timerValue}}</h1>
+</div>
+
+<div class="row">
+    <h1 class="text-center">{{vm.currentQuestion}}</h1>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="list-group">
+            <a href="#" class="list-group-item" ng-repeat="ans in vm.currentAnswers" ng-class="{'list-group-item-success': (vm.isTimerStopped && ans.result) || (vm.isRightAnswer && ans.result), 'list-group-item-danger':  vm.isAnswered && !vm.isRightAnswer && !ans.result && vm.selectedAnswer === ans}" ng-click="vm.giveAnswer(ans)">
+                <span class="badge">{{ans.result}}</span>{{ans.answer}}
+            </a>
+        </div>
+    </div>
+</div>
+<br />
+<div class="row">
+    <button class="btn btn-info text-center" ng-show="vm.hasNext" ng-click="vm.goNext()">Next</button>
+    <button class="btn btn-info text-center" ng-show="vm.gameOver" ng-click="vm.startAgain()">Start again</button>
+</div>

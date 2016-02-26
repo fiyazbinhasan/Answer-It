@@ -1,0 +1,74 @@
+﻿[
+  {
+    "question": "What is the scientific name of Leopard?",
+    "answers": [
+      {
+        "answer": "Panthera tigris",
+        "result": false
+      },
+
+      {
+        "answer": "Panthera leo",
+        "result": false
+      },
+
+      {
+        "answer": "Vulpes vulpes",
+        "result": false
+      },
+
+      {
+        "answer": "Panthera pardus",
+        "result": true
+      }
+    ]
+  },
+  {
+    "question": "What is the scientific name of Cat?",
+    "answers": [
+      {
+        "answer": "Felis catus",
+        "result": true
+      },
+
+      {
+        "answer": "Canis lupus familiaris",
+        "result": false
+      },
+
+      {
+        "answer": "Canis lupus",
+        "result": false
+      },
+
+      {
+        "answer": "Ursidae",
+        "result": false
+      }
+    ]
+  },
+  {
+    "question": "What is the scientific name of Dolphon?",
+    "answers": [
+      {
+        "answer": "Spheniscidae",
+        "result": false
+      },
+
+      {
+        "answer": "Selachimorpha",
+        "result": false
+      },
+
+      {
+        "answer": "Delphinidae",
+        "result": true
+      },
+
+      {
+        "answer": "Phocidae",
+        "result": false
+      }
+    ]
+  }
+]
