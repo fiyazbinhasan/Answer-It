@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="answerit">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="css/cover.css">
+
+    <title>Answer It!</title>
+</head>
+
+<body>
+    <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+            <div class="cover-container">
+
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand">Answer It!</h3>
+                        <nav>
+                            <ul class="nav masthead-nav">
+                                <li ng-class="{ 'active': $state.includes('play') }"><a ui-sref="play">Play</a></li>
+                                <li ng-class="{ 'active': $state.includes('howto') }"><a ui-sref="howto">How To</a></li>
+                                <li ng-class="{ 'active': $state.includes('about') }"><a ui-sref="about">About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="inner cover">
+                    <ui-view></ui-view>
+                </div>
+
+                <div class="mastfoot">
+                    <div class="inner">
+                        <p>Answer It!, by <a href="https://twitter.com/@FiyazBinHasan">@FiyazBinHasan</a>.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+        <script src="js/app/app.module.js"></script>
+        <script src="js/app/about/about.controller.js"></script>
+        <script src="js/app/howto/howto.controller.js"></script>
+        <script src="js/app/play/play.controller.js"></script>
+</body>
+
+</html>
