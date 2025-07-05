@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/_references.js",
+      "PackagePath": "staticwebassets/_references.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/css/site.min.css",
+      "PackagePath": "staticwebassets/css/site.min.css"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/data/qas.json",
+      "PackagePath": "staticwebassets/data/qas.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/images/ASP-NET-Banners-01.png",
+      "PackagePath": "staticwebassets/images/ASP-NET-Banners-01.png"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/images/ASP-NET-Banners-02.png",
+      "PackagePath": "staticwebassets/images/ASP-NET-Banners-02.png"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/images/Banner-01-Azure.png",
+      "PackagePath": "staticwebassets/images/Banner-01-Azure.png"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/images/Banner-02-VS.png",
+      "PackagePath": "staticwebassets/images/Banner-02-VS.png"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/js/app/about/about.controller.js",
+      "PackagePath": "staticwebassets/js/app/about/about.controller.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/js/app/app.module.js",
+      "PackagePath": "staticwebassets/js/app/app.module.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/js/app/howto/howto.controller.js",
+      "PackagePath": "staticwebassets/js/app/howto/howto.controller.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/js/app/play/play.controller.js",
+      "PackagePath": "staticwebassets/js/app/play/play.controller.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/js/app/play/play.service.js",
+      "PackagePath": "staticwebassets/js/app/play/play.service.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/.bower.json",
+      "PackagePath": "staticwebassets/lib/angular/.bower.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/README.md",
+      "PackagePath": "staticwebassets/lib/angular/README.md"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/angular-csp.css",
+      "PackagePath": "staticwebassets/lib/angular/angular-csp.css"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/angular.js",
+      "PackagePath": "staticwebassets/lib/angular/angular.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/angular.min.js",
+      "PackagePath": "staticwebassets/lib/angular/angular.min.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/angular.min.js.gzip",
+      "PackagePath": "staticwebassets/lib/angular/angular.min.js.gzip"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/angular.min.js.map",
+      "PackagePath": "staticwebassets/lib/angular/angular.min.js.map"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/bower.json",
+      "PackagePath": "staticwebassets/lib/angular/bower.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/index.js",
+      "PackagePath": "staticwebassets/lib/angular/index.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/angular/package.json",
+      "PackagePath": "staticwebassets/lib/angular/package.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/.bower.json",
+      "PackagePath": "staticwebassets/lib/bootstrap/.bower.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-theme.css"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-theme.css.map"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-theme.min.css"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/bootstrap/dist/js/npm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/npm.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation-unobtrusive/.bower.json",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/.bower.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation/.bower.json",
+      "PackagePath": "staticwebassets/lib/jquery-validation/.bower.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery/.bower.json",
+      "PackagePath": "staticwebassets/lib/jquery/.bower.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery/MIT-LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/MIT-LICENSE.txt"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/.bower.json",
+      "PackagePath": "staticwebassets/lib/ui-router/.bower.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/CHANGELOG.md",
+      "PackagePath": "staticwebassets/lib/ui-router/CHANGELOG.md"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/CONTRIBUTING.md",
+      "PackagePath": "staticwebassets/lib/ui-router/CONTRIBUTING.md"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/LICENSE",
+      "PackagePath": "staticwebassets/lib/ui-router"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/README.md",
+      "PackagePath": "staticwebassets/lib/ui-router/README.md"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/bower.json",
+      "PackagePath": "staticwebassets/lib/ui-router/bower.json"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/release/angular-ui-router.js",
+      "PackagePath": "staticwebassets/lib/ui-router/release/angular-ui-router.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/release/angular-ui-router.min.js",
+      "PackagePath": "staticwebassets/lib/ui-router/release/angular-ui-router.min.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/common.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/common.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/resolve.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/resolve.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/state.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/state.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/stateDirectives.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/stateDirectives.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/stateFilters.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/stateFilters.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/templateFactory.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/templateFactory.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/urlMatcherFactory.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/urlMatcherFactory.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/urlRouter.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/urlRouter.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/view.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/view.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/viewDirective.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/viewDirective.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/lib/ui-router/src/viewScroll.js",
+      "PackagePath": "staticwebassets/lib/ui-router/src/viewScroll.js"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/templates/about.html",
+      "PackagePath": "staticwebassets/templates/about.html"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/templates/howto.html",
+      "PackagePath": "staticwebassets/templates/howto.html"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/templates/play.html",
+      "PackagePath": "staticwebassets/templates/play.html"
+    },
+    {
+      "Id": "/home/runner/work/Answer-It/Answer-It/src/AnswerIt/wwwroot/web.config",
+      "PackagePath": "staticwebassets/web.config"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.AnswerIt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.AnswerIt.props",
+      "PackagePath": "build\\AnswerIt.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AnswerIt.props",
+      "PackagePath": "buildMultiTargeting\\AnswerIt.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AnswerIt.props",
+      "PackagePath": "buildTransitive\\AnswerIt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

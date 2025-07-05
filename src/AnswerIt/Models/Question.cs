@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace AnswerIt.Models
 {
@@ -9,8 +8,10 @@ namespace AnswerIt.Models
         {
             Answers = new List<Answer>();
         }
+        
         [JsonProperty("question")]
-        public string Text { get; set; }
+        public string Text { get; set; } = string.Empty;
+        
         [JsonProperty("answers")]
         public ICollection<Answer> Answers { get; set; }
     }
