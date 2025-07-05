@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#" routerLink="/">{{ title }}</a>
+    <div class="navbar-nav">
+      <a class="nav-link" routerLink="/play" routerLinkActive="active">Play</a>
+      <a class="nav-link" routerLink="/howto" routerLinkActive="active">How To</a>
+      <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+    </div>
+  </div>
+</nav>
+
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>

@@ -1,0 +1,54 @@
+<div class="container" *ngIf="currentQuestion">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="timer-display">{{timerValue}}</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center question-text">{{currentQuestion.text}}</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="list-group">
+        <button 
+          *ngFor="let answer of currentQuestion.answers" 
+          type="button"
+          class="list-group-item list-group-item-action"
+          [class.list-group-item-success]="(isTimerStopped && answer.result) || (isRightAnswer && answer.result)"
+          [class.list-group-item-danger]="isAnswered && !isRightAnswer && !answer.result && selectedAnswer === answer"
+          (click)="giveAnswer(answer)"
+          [disabled]="isAnswered">
+          <span class="badge badge-primary badge-pill">{{answer.result}}</span>
+          {{answer.text}}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-12 text-center">
+      <button 
+        *ngIf="hasNext" 
+        class="btn btn-info"
+        (click)="goNext()">
+        Next
+      </button>
+      <button 
+        *ngIf="gameOver" 
+        class="btn btn-info"
+        (click)="startAgain()">
+        Start Again
+      </button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!currentQuestion" class="text-center">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
