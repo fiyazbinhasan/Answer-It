@@ -1,0 +1,12 @@
+.steps p {
+  color: var(--text-primary) !important;
+  margin-bottom: 0;
+}
+
+.steps strong {
+  color: var(--text-primary) !important;
+}
+
+:host-context([data-theme="dark"]) .has-background-white-bis {
+  background-color: var(--step-bg) !important;
+}

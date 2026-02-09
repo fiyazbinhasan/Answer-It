@@ -1,0 +1,4 @@
+:host-context([data-theme="dark"]) .content p,
+:host-context([data-theme="dark"]) .content strong {
+  color: var(--text-primary) !important;
+}

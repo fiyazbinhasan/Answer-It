@@ -1,37 +1,67 @@
-.timer-display {
-  font-size: 4rem;
-  font-weight: bold;
-  color: #dc3545;
-  margin-bottom: 2rem;
+.quiz-card {
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
 }
 
-.question-text {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  color: #333;
+.answer-btn {
+  border-radius: 8px !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  justify-content: flex-start !important;
+  white-space: normal !important;
+  height: auto !important;
+  padding: 1rem 1.25rem !important;
+  border-color: var(--answer-border) !important;
+  color: var(--answer-text) !important;
+  background-color: var(--answer-bg) !important;
 }
 
-.list-group-item {
-  margin-bottom: 0.5rem;
-  border-radius: 0.5rem;
-  position: relative;
+.answer-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--answer-hover-border) !important;
+  color: var(--answer-hover-border) !important;
 }
 
-.list-group-item:hover:not(:disabled) {
-  background-color: #f8f9fa;
+.answer-btn:disabled {
+  opacity: 0.85;
 }
 
-.list-group-item:disabled {
-  opacity: 0.7;
+.answer-btn.is-success {
+  border-color: #48c78e !important;
+  background-color: #effaf5 !important;
+  color: #257953 !important;
 }
 
-.container {
-  max-width: 800px;
-  margin: 2rem auto;
+.answer-btn.is-danger {
+  border-color: #f14668 !important;
+  background-color: #feecf0 !important;
+  color: #cc0f35 !important;
 }
 
-.spinner-border {
-  width: 3rem;
-  height: 3rem;
-  margin: 2rem auto;
+:host-context([data-theme="dark"]) .answer-btn.is-success {
+  background-color: #1b3a2a !important;
+  color: #6ee7a0 !important;
+}
+
+:host-context([data-theme="dark"]) .answer-btn.is-danger {
+  background-color: #3a1b24 !important;
+  color: #f7849a !important;
+}
+
+.progress {
+  border-radius: 4px;
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }

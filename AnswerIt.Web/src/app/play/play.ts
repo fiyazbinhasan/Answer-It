@@ -10,7 +10,7 @@ import { Question, Answer } from '../models/quiz.models';
 })
 export class Play implements OnInit, OnDestroy {
   private readonly quizService = inject(Quiz);
-  private readonly TIMER_MAX_VALUE = 5;
+  readonly TIMER_MAX_VALUE = 5;
   private timerId: ReturnType<typeof setInterval> | null = null;
 
   questions = signal<Question[]>([]);

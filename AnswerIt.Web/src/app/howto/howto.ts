@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   templateUrl: './howto.html',
   styleUrl: './howto.scss',
 })
-export class Howto {
-  howto = "Welcome to Answer It! A game for every age of people. Start the game and try answering all the questions in the limited amount of time. If you get all the answers correct, You will get the glorious prize of 'NOTHING'";
-}
+export class Howto {}

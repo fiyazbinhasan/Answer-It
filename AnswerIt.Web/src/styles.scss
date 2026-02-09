@@ -1,28 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
-@import 'bootstrap/dist/css/bootstrap.min.css';
+@use 'bulma/css/bulma.css';
+
+:root {
+  --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --box-bg: #fff;
+  --box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --text-primary: #222;
+  --text-secondary: #4a4a4a;
+  --step-bg: #f5f5f5;
+  --answer-bg: #fff;
+  --answer-border: #dbdbdb;
+  --answer-hover-border: #485fc7;
+  --answer-text: #363636;
+}
+
+[data-theme="dark"] {
+  --bg-gradient: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  --box-bg: #2a2a3e;
+  --box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --text-primary: #f0f0f0;
+  --text-secondary: #c0c0c0;
+  --step-bg: #33334d;
+  --answer-bg: #33334d;
+  --answer-border: #4a4a6a;
+  --answer-hover-border: #7c8cf7;
+  --answer-text: #e0e0e0;
+}
 
 body {
-  background-color: #f8f9fa;
+  background: var(--bg-gradient);
+  min-height: 100vh;
 }
 
 .main-content {
-  padding: 2rem 0;
+  padding: 2rem 1.5rem;
+  min-height: calc(100vh - 52px);
 }
 
-.navbar-brand {
-  font-weight: bold;
+[data-theme="dark"] .box {
+  background-color: var(--box-bg);
+  box-shadow: var(--box-shadow);
 }
 
-.nav-link.active {
-  color: #fff !important;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 0.25rem;
+[data-theme="dark"] .title,
+[data-theme="dark"] .content p,
+[data-theme="dark"] .content strong {
+  color: var(--text-primary);
 }
 
-.about-text, .howto-text {
-  padding: 2rem;
-  background-color: white;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  line-height: 1.6;
+[data-theme="dark"] .tag.is-dark {
+  background-color: #444;
+}
+
+[data-theme="dark"] .notification.is-success.is-light {
+  background-color: #1b3a2a;
+  color: #6ee7a0;
+}
+
+[data-theme="dark"] .notification.is-danger.is-light {
+  background-color: #3a1b24;
+  color: #f7849a;
+}
+
+[data-theme="dark"] .notification.is-warning.is-light {
+  background-color: #3a351b;
+  color: #f7d794;
 }
